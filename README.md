@@ -27,12 +27,12 @@ How to make it work:
     1. Create a separate directory and download all these files into the same directory
 
     2. Download the following 6 files:
-    	1) CPMF.m: Main file for training CPMF
-	2) dg.m: The derivative of g(x)
-	3) g.m: The log function g(x)
-	4) LOSE.m: The loss function
-	5) run.m: Load data and set parameters
-	6) u.data: MovieLens 100k data set
+    		1) CPMF.m: Main file for training CPMF
+		2) dg.m: The derivative of g(x)
+		3) g.m: The log function g(x)
+		4) LOSE.m: The loss function
+		5) run.m: Load data and set parameters
+		6) u.data: MovieLens 100k data set
     3. Run run.m
 
 
