@@ -15,3 +15,4 @@ lambda_W = 0.8; % the regularization paramater for W
 Max = 30; % the max iteration
 
 [ Y, V, W, RMSE ] = CPMF( Test , Train, K, eta, lambda_Y, lambda_V, lambda_W, Max);
+plot(RMSE);
